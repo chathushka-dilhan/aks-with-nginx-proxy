@@ -1,0 +1,14 @@
+# Service: Exposes the NGINX pods with a stable internal IP address.
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: simple-html-service
+spec:
+  selector:
+    # This selector matches the labels on the pods created by the Deployment.
+    app: simple-html
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80

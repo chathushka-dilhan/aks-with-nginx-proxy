@@ -1,0 +1,27 @@
+# simple-html-ingress-tls.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: simple-html-ingress
+  annotations:
+    # Tell cert-manager to use our ClusterIssuer
+    cert-manager.io/cluster-issuer: "letsencrypt-dev" # Make sure this matches your ClusterIssuer name
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  ingressClassName: nginx
+  # This section configures TLS
+  tls:
+  - hosts:
+    - your-domain.com # <-- IMPORTANT: Replace with your actual domain name
+    secretName: simple-html-tls-secret # cert-manager will create this secret with the certificate
+  rules:
+  - host: your-domain.com # <-- And here
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: simple-html-service
+            port:
+              number: 80

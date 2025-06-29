@@ -1,0 +1,45 @@
+# ConfigMap: Stores the index.html file content.
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: simple-html-configmap
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello from AKS!</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f0f8ff;
+                color: #333;
+            }
+            .container {
+                text-align: center;
+                padding: 40px;
+                border-radius: 10px;
+                background-color: #fff;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+            h1 {
+                color: #0078d4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Hello from AKS!</h1>
+            <p>Your static HTML page is being served by NGINX running in Azure Kubernetes Service.</p>
+            <p>This deployment was created using Terraform and Kubernetes YAML files.</p>
+        </div>
+    </body>
+    </html>

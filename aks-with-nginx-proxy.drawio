@@ -1,0 +1,69 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="9XXMnMdbN7ZuNj7auwHh">
+    <mxGraphModel dx="1234" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xGEfktg6d_XMOSN8fgy7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="710" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IR7TYOBT6rruLH-fmtr3-1" target="IR7TYOBT6rruLH-fmtr3-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-15" value="(&lt;span class=&quot;selected&quot;&gt;DNS A Record)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="IR7TYOBT6rruLH-fmtr3-14" vertex="1" connectable="0">
+          <mxGeometry x="0.075" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-1" value="&lt;span class=&quot;selected&quot;&gt;your-domain.com&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="292" y="40" width="166" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-2" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Azure_A.svg;" parent="1" vertex="1">
+          <mxGeometry x="60" y="170" width="42.42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-4" value="Azure Cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="670" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-6" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span class=&quot;selected&quot;&gt;&amp;nbsp; &amp;nbsp; Azure Load Balancer&lt;/span&gt;&lt;div&gt;&lt;span class=&quot;selected&quot;&gt;&lt;span class=&quot;selected&quot;&gt;&amp;nbsp; &amp;nbsp; (Created by NGINX Service)&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span class=&quot;selected&quot;&gt;&lt;span class=&quot;selected&quot;&gt;&lt;span class=&quot;selected&quot;&gt;&amp;nbsp; &amp;nbsp; [Public IP Address]&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" parent="1" vertex="1">
+          <mxGeometry x="60" y="229" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Load_Balancers.svg;" parent="1" vertex="1">
+          <mxGeometry x="70" y="238" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-7" value="&lt;span class=&quot;selected&quot;&gt;Azure Kubernetes Service (AKS)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="370" y="229" width="320" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-8" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Kubernetes_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="380" y="240" width="45.33" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-16" value="&lt;span class=&quot;selected&quot;&gt;(Routes traffic)&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IR7TYOBT6rruLH-fmtr3-10" target="IR7TYOBT6rruLH-fmtr3-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-10" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;NGINX Ingress Controller&lt;/span&gt;&lt;/font&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" parent="1" vertex="1">
+          <mxGeometry x="440" y="299" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/373924/nginx.svg;" parent="1" vertex="1">
+          <mxGeometry x="443.3299999999999" y="308" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IR7TYOBT6rruLH-fmtr3-11" target="IR7TYOBT6rruLH-fmtr3-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IR7TYOBT6rruLH-fmtr3-11" target="IR7TYOBT6rruLH-fmtr3-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-11" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span class=&quot;selected&quot;&gt;Your Application Service&lt;/span&gt;&lt;/blockquote&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=left;" parent="1" vertex="1">
+          <mxGeometry x="440.00000000000006" y="409" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-12" value="&lt;span class=&quot;selected&quot;&gt;Pod 1&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=center;" parent="1" vertex="1">
+          <mxGeometry x="443.33" y="529" width="96.67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-13" value="&lt;span class=&quot;selected&quot;&gt;Pod 2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;align=center;" parent="1" vertex="1">
+          <mxGeometry x="560" y="529" width="96.67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IR7TYOBT6rruLH-fmtr3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.009;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IR7TYOBT6rruLH-fmtr3-6" target="IR7TYOBT6rruLH-fmtr3-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
