@@ -27,15 +27,16 @@ Before you begin, ensure you have the following tools installed and configured:
 ## Project Structure
 ```
 .
-│── main.tf
-│── outputs.tf
-│── terraform.tfvars
-│── variables.tf
-├── modules/
-│   └── aks-nginx/
-│       ├── main.tf
-│       ├── outputs.tf
-│       └── variables.tf
+├── terraform/
+│   │── main.tf
+│   │── outputs.tf
+│   │── terraform.tfvars
+│   │── variables.tf
+│   └── modules/
+│       └── aks-nginx/
+│           ├── main.tf
+│           ├── outputs.tf
+│           └── variables.tf
 ├── k8s/
 │   ├── deployment.yaml
 │   ├── cert-manager.yaml
@@ -68,8 +69,9 @@ az account set --subscription "Your-Subscription-Name-or-ID"
 ```
 
 ### Step 3: Deploy the AKS Infrastructure
-Navigate to the root directory and initialize Terraform.
+Navigate to the terraform directory and initialize Terraform.
 ```
+cd terraform
 terraform init
 ```
 
@@ -156,9 +158,10 @@ Open your web browser and navigate to `https://your-domain.com`. You should see 
 To avoid ongoing charges, destroy all the resources you've created.
 
 1. Destroy Azure Infrastructure:
-Navigate back to the root directory and run terraform destroy.
+Navigate back to the terraform directory and run terraform destroy.
 
 ```
+cd terraform
 terraform destroy
 ```
 Confirm by typing `yes`.
